@@ -78,9 +78,13 @@ table.m td a:hover {background-color:#bbcef1;border:1px solid #6595e0;-moz-borde
 ul.ui-tabs-nav {margin:1em 1em 0;}
 div.ui-tabs-panel {margin:0 1em;padding:.5em 0;}
 div.ui-tabs-panel table.itu {font-size:12px;border-top:1px solid #505050;border-left:1px solid #505050;border-right:1px solid #505050;}
+div.ui-tabs-panel table.itu tr th {padding:3px 0;}
+div.ui-tabs-panel table.itu tr td {padding:2px 0;}
 .ui-tabs-panel-padding {padding:1.2em;}
 
 /* Toolbars */
-div.toolbar {border:1px solid #505050;background:url("../images/footer-button-m-inactive.png") repeat-x;height:20px;display:block;margin:1em 1.2em 0;padding:0 1em;-moz-border-radius:5px;-webkit-border-radius:5px}
-div.toolbar a {font-size:12px;margin:0;padding:3px 1em;}
-div.toolbar a:hover {background:url("../images/footer-button-m-active.png") repeat-x;}
+ul.toolbar {border:1px solid #505050;background:url("../images/footer-button-m-inactive.png") repeat-x;height:16px;display:block;margin:1em 1.2em 0;padding:2px 1em;-moz-border-radius:5px;-webkit-border-radius:5px}
+ul.toolbar li {display:inline;}
+ul.toolbar li a {position:relative;padding:4px 1em;}
+ul.toolbar li a:hover {background:url("../images/footer-button-m-active.png") repeat-x;}
+div.ui-tabs-panel ul.toolbar li a {position:relative;top:2px;}
