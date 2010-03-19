@@ -51,6 +51,17 @@
   background-image:none;
 }
 
+/* helpers */
+.fg-button {
+  outline: 0; 
+  margin:0 4px 0 0; 
+  padding: .4em 1em; 
+  text-decoration:none !important; 
+  cursor:pointer;
+  text-align: center; 
+  zoom: 1;
+}
+
 /* main css */
 div.header {
   background-color:@secondaryB_dark;
@@ -95,15 +106,7 @@ div.footer {
       a.back {
         position:absolute;
         top:6px;
-        left:6px;
-        padding:0.5em 0.5em 0.5em 1em;
-        background-color:@primary;
-        color:#fff;
-        text-decoration:none;
-        -moz-border-radius-topleft:12px;
-        -moz-border-radius-bottomleft:12px;
-        -webkit-border-top-left-radius:12px;
-        -webkit-border-bottom-left-radius:12px;
+        right:6px;
       }
     }
     ul {

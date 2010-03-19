@@ -197,6 +197,15 @@ caption { background: #eeeeee; }
   background-color: #edefeb;
   background-image: none;
 }
+.fg-button {
+  outline: 0;
+  margin: 0 4px 0 0;
+  padding: 0.4em 1em;
+  text-decoration: none !important;
+  cursor: pointer;
+  text-align: center;
+  zoom: 1;
+}
 div.header {
   background-color: #c6d6b4;
   background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dcddda), color-stop(1, #c6d6b4));
@@ -237,15 +246,7 @@ div.footer {
 #left div.panel div.navbar a.back {
   position: absolute;
   top: 6px;
-  left: 6px;
-  padding: 0.5em 0.5em 0.5em 1em;
-  background-color: #cacdcb;
-  color: #ffffff;
-  text-decoration: none;
-  -moz-border-radius-topleft: 12px;
-  -moz-border-radius-bottomleft: 12px;
-  -webkit-border-top-left-radius: 12px;
-  -webkit-border-bottom-left-radius: 12px;
+  right: 6px;
 }
 #left div.panel ul {
   margin: 0;

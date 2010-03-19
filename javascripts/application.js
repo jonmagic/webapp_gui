@@ -68,5 +68,14 @@ $(function(){
   section_onePanel.find('a.back').click(function(){
     section_onePanel.hide('slide', { direction: 'right' }, 500);
     homePanel.show('slide', { direction: 'left' }, 500);    
-  })
+  });
+  // button hover
+  $('.fg-button').hover(
+    function(){ 
+      $(this).addClass("ui-state-hover"); 
+    },
+    function(){ 
+      $(this).removeClass("ui-state-hover"); 
+    }
+  )
 });
