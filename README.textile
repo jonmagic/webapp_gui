@@ -1,0 +1,9 @@
+h1. Web App Gui
+
+I'm onto the second version of this gui, now redesigned to not resemble OSX too much, as well as a fundamental shift in the way it works. The gui is now designed to work with single page load apps, apps that have most of their view/controller code in javascript, and the models backed by a json providing webapp/server.
+
+h2. Thanks To
+
+* "jQuery":http://jquery.com
+* "UI.Layout":http://layout.jquery-dev.net/
+* "FamFamFam icons":http://www.famfamfam.com/lab/icons/
