@@ -43,6 +43,10 @@
 }
 #content .ui-layout-center .ui-tabs-nav {
   border-radius:0;
+  -webkit-border-radius:0;
+  -moz-border-radius:0;
+  border-left:none;
+  border-right:none;
   background-color:@secondaryB;
   background-image:none;
 }
@@ -60,7 +64,7 @@ div.footer {
   div.header {
     h1 {
       text-align:center;
-      color:@secondaryA_dark;
+      color:@primary_dark;
     }
   }
 }
@@ -80,7 +84,8 @@ div.footer {
       height:1.9em;
       padding-top:10px;
       background-color:@secondaryB;
-      border:1px solid #aaa;
+      border-top:1px solid #aaa;
+      border-bottom:1px solid #aaa;
       text-align:center;
       h3 {
         margin:0;

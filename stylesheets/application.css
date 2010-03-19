@@ -190,6 +190,10 @@ caption { background: #eeeeee; }
 }
 #content .ui-layout-center .ui-tabs-nav {
   border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-left: none;
+  border-right: none;
   background-color: #edefeb;
   background-image: none;
 }
@@ -203,7 +207,7 @@ div.footer {
 }
 #right div.header h1 {
   text-align: center;
-  color: #8ca0a7;
+  color: #9ab7a5;
 }
 #left input#search {
   margin: 5px 5px 5px 40px;
@@ -221,7 +225,8 @@ div.footer {
   height: 1.9em;
   padding-top: 10px;
   background-color: #edefeb;
-  border: 1px solid #aaaaaa;
+  border-top: 1px solid #aaaaaa;
+  border-bottom: 1px solid #aaaaaa;
   text-align: center;
 }
 #left div.panel div.navbar h3 {

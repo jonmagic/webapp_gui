@@ -1,27 +1,33 @@
 // setup my layouts
 var layout = function(){
-  var mainLayout = $('body').layout({
+  // split the left and right
+  mainLayout = $('body').layout({
     west: {
       size: 300
       , minSize: 150
       , maxSize: 500
       , onresize: "leftLayout.resizeAll"
+      , closable: false
     },
     center: {
       onresize: "rightLayout.resizeAll"
     }
   });
-  var leftLayout = $('#left').layout({
+  // setup the left layout
+  leftLayout = $('#left').layout({
     north: {
       size: 40
       , resizable: false
+      , closable: false
     },
     south: {
       size: 20
       , resizable: false
+      , closable: false
     }
   });
-  var rightLayout = $('#right').layout({
+  // setup the right layout
+  rightLayout = $('#right').layout({
     north: {
       size: 40
       , resizable: false
@@ -29,6 +35,7 @@ var layout = function(){
     south: {
       size: 20
       , resizable: false
+      , closable: false
     },
     center: {
       onresize: "contentLayout.resizeAll"
@@ -38,7 +45,17 @@ var layout = function(){
 // setup my jquery
 $(function(){
   // setup the layout
-  layout()
+  layout();
+  $(window).resize(function(){
+    mainLayout.resizeAll();
+    leftLayout.resizeAll();
+    rightLayout.resizeAll();
+  });
+  $('#left').resize(function(){
+    mainLayout.resizeAll();
+    leftLayout.resizeAll();
+    rightLayout.resizeAll();
+  });
   // create tabs of my content
   var tabs = $('div#content div.ui-layout-center').tabs();
   // setup my sidebar
