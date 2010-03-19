@@ -2,7 +2,7 @@ h1. Web App Gui
 
 I'm onto the second version of this gui, now redesigned to not resemble OSX too much, as well as a fundamental shift in the way it works. The gui is now designed to work with single page load apps, apps that have most of their view/controller code in javascript, and the models backed by a json providing webapp/server.
 
-<object width="600" height="450"><param name="allowfullscreen" value="true" /><param name="allowscriptaccess" value="always" /><param name="movie" value="http://vimeo.com/moogaloop.swf?clip_id=10284051&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" /><embed src="http://vimeo.com/moogaloop.swf?clip_id=10284051&amp;server=vimeo.com&amp;show_title=0&amp;show_byline=0&amp;show_portrait=0&amp;color=00ADEF&amp;fullscreen=1" type="application/x-shockwave-flash" allowfullscreen="true" allowscriptaccess="always" width="600" height="450"></embed></object>
+"Video of the web app gui in action!":http://vimeo.com/10284051
 
 h2. Thanks To
 
